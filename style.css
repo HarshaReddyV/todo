@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+* {
+
+    font-family: 'Roboto medium', sans-serif;
+}
+
+.container {
+    background-color: yellow;
+
+}
+
+#main-display {
+
+    border: 5px solid white;
+}
+
+#task-display {
+    list-style: none;
+    display: block;
+}
+
+#task-list {
+    border: 5px solid white;
+    margin: 5px;
+    padding: 20px;
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+}
+
+#close-btn {
+    cursor: pointer;
+
+}
