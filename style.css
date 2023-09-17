@@ -5,14 +5,29 @@
     font-family: 'Roboto medium', sans-serif;
 }
 
-.container {
-    background-color: yellow;
+#anchor button {
+    text-decoration: none;
+    color: orange;
+
 
 }
 
-#main-display {
+#whole {
 
-    border: 5px solid white;
+    height: 100vmax;
+
+    margin: 0px;
+    background-image: linear-gradient(pink, skyblue);
+}
+
+.container {
+    background-color: yellow transparent;
+
+}
+
+#display {
+
+    height: 100%;
 }
 
 #task-display {
@@ -32,4 +47,8 @@
 #close-btn {
     cursor: pointer;
 
+}
+
+button {
+    margin: 5px;
 }
